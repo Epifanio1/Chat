@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    border: 0px;
+}
+.cabecera{
+    margin: 0 auto;
+    width: 75%;
+    height: 70px;
+}
+.temas{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+}
+.cuerpo{
+    display: inline-block;
+}
+.contededor{
+    margin: 0 auto;
+    width: 75%; 
+}
+#mensajes{
+    width: 320px; 
+    height: 320px; 
+    font: 14px Helvetica; 
+    color: darkgrey; 
+    font-weight: bolder;
+    background: white;
+}
+.temaChat{
+    width: 98%;
+    background: #ABCDF0;
+    height: 40px;
+    margin: 5px;
+}
+.temaChat:hover{
+    width: 98%;
+    background: #123456;
+    height: 40px;
+    margin: 4px;
+}
+#emoticones{
+    display: none;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+p{
+    font-size: 25px;
+    background: yellow;
+    border-radius: 29px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+#emojics{
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+}
+#enviar{
+    float: right;
+}
+#texto{
+    width: 240px;
+}
+#divEmo{
+    width: 142px;
+    transform: translate(180px, -260px);
+    border: 1px solid blue;
+    background: white;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    position: absolute;
+}

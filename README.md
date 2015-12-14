@@ -16,6 +16,6 @@ copie los archivos descargados en el proyecto.
 para poder correr el proyecto necesita tener instalado apache tomcat 7 o superior
 
 ##stack utilizado
-java 7
-javascript
-html
+- java 7
+- javascript
+- html
